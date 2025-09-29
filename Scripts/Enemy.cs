@@ -15,6 +15,6 @@ public class Enemy : MonoBehaviour, IProduct
 
         //Destroy the enemy after 5 seconds
         Destroy(gameObject, 5f);
-        Debug.Log(productName + " spawned at " + transform.position + "vanished!");
+        
     }
 }
