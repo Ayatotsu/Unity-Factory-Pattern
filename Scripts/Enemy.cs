@@ -12,5 +12,8 @@ public class Enemy : MonoBehaviour, IProduct
     {
         productName = "Enemy";
         Debug.Log(productName + " spawned at " + transform.position);
+
+        //Destroy the enemy after 3 seconds
+        Destroy(gameObject, 3f);
     }
 }
