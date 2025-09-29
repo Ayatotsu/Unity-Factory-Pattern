@@ -13,7 +13,8 @@ public class Enemy : MonoBehaviour, IProduct
         productName = "Enemy";
         Debug.Log(productName + " spawned at " + transform.position);
 
-        //Destroy the enemy after 3 seconds
-        Destroy(gameObject, 3f);
+        //Destroy the enemy after 5 seconds
+        Destroy(gameObject, 5f);
+        Debug.Log(productName + " spawned at " + transform.position + "vanished!");
     }
 }
