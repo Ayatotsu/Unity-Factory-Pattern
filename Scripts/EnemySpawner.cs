@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //x,z,y = 0. ground level
-            Vector3 spawnPosition = new Vector3(Random.Range(-4f, 4f), 0, Random.Range(-4f, 4f));
+            Vector3 spawnPosition = new Vector3(Random.Range(-6f, 6f), 0, Random.Range(-6f, 6f));
 
             enemyFactory.GetProduct(spawnPosition);
         }
